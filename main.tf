@@ -6,7 +6,4 @@ module "ecs" {
 
     #Cluster inputs
     ClusterName = var.ClusterName
-
-    #ECR inputs
-    EcrNames = var.EcrNames
 }
